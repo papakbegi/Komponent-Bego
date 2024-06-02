@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<meta charset="UTF-8">
+    <title>Komponent Bego</title>
+
+    <meta name="keywords" content="lastno spletišče Komponent Bego">
+    <meta name="description" content="lastno spletišče Komponent Bego">
+    <meta name="author" content="Alen Beganovic">
+
+    <link rel="icon" href="slike/favicon.ico" type="image/x-icon">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Ikone Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- pisava Google Fonts: Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <!-- Moj ključ za ikone-->
+    <script src="https://kit.fontawesome.com/088d36df7e.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+                  
+            <div class="navbar-header">
+              <!-- gumb menija -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meni">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <!-- logotip -->
+              <a class="navbar-brand" href="index.html"><img src="slike//logoSplet.png" alt="komponent bego logotip"></a>
+            </div>
+            
+            <!-- meni, ki se na manjših zaslonih skrči -->			
+            <div class="collapse navbar-collapse" id="meni">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Domov</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Izdelki <span class="caret"></span></a>
+                  <!-- spustni meni -->
+                  <ul class="dropdown-menu">
+                    <li><a href="racunalniki.html">Računalniki</a></li>
+                    <li><a href="prenosniki.html">Prenosniki</a></li>
+                    <li><a href="dodatki.html">Dodatki</a></li>
+                    <li><a href="monitorji.html">Monitorji</a></li>
+                  </ul>
+                </li>
+                <li><a href="onas.html">O nas</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li class="active"><a href="zemljevid.html">Lokacija</a></li>
+                <li><a href="storitve.html">Storitve</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>		
+        </nav>
+    </header>
+	
+	<header>
+		<div class="bs-glavaStrani">
+			<div class="container">
+				<h1>Kje se nahajamo?</h1>
+			</div>
+		</div>
+	</header>
+	
+	<section id="kontakt">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>Pridi in nas obišči</h2>
+					<p>Naša trgovina se nahaja na priročni lokaciji, ki jo lahko najdete na spodnjem zemljevidu. Obiščite nas za osebni ogled naše ponudbe in strokovno svetovanje pri izbiri računalniških komponent. Naša ekipa vas bo z veseljem sprejela in vam pomagala najti idealne rešitve za vaš računalnik.Veselimo se vašega obiska!</p>
+				</div>
+			</div>
+		</div>
+
+        <div id="zemljevid">
+			<div class="container-fluid">
+				<div id="map"></div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Okvir noge z dvema stolpcema -->
+	<footer class="container-fluid text-center">
+    <div class="row">
+        <!-- Social Icons -->
+        <div class="nogaZgoraj col-12">
+            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <i class="fa fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <i class="fa fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="Google+">
+                <i class="fa fa-brands fa-google-plus"></i>
+            </a>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="YouTube">
+                <i class="fa fa-brands fa-youtube"></i>
+            </a>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="Snapchat">
+                <i class="fa fa-brands fa-snapchat"></i>
+            </a>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram">
+                <i class="fa fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="TikTok">
+                <i class="fa fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+        <!-- Important Information -->
+        <div class="nogaSredina col-12">
+            <p>
+                <strong>Contact Us:</strong> <a href="mailto:info@komponentbego.com">info@komponentbego.com</a> | 
+                <strong>Phone:</strong> +123 456 7890
+            </p>
+            <p>
+                <strong>Address:</strong> Slovenska cesta 17, Ljubljana, Slovenia
+            </p>
+            <p>
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </p>
+        </div>
+        <!-- Footer Bottom Text -->
+        <div class="nogaSpodaj col-12">
+            © Komponent Bego, 2024
+        </div>
+    </div>
+  </footer>
+
+	<!-- jQuery in Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- Google Map API -->
+    <script>
+		function myMap() {
+		  var myCenter = new google.maps.LatLng(46.049531, 14.502150);
+		  var mapCanvas = document.getElementById("map");
+		  var mapOptions = {center: myCenter, zoom: 15};
+		  var map = new google.maps.Map(mapCanvas, mapOptions);
+		  var marker = new google.maps.Marker({position:myCenter});
+		  marker.setMap(map);
+
+		  var infowindow = new google.maps.InfoWindow({
+			content: "<b>Kombonent Bego</b><br>Ljubljana<br>Slovenska cesta 17<br>1000 Ljubljana"
+		  });
+		  infowindow.open(map,marker);
+		}
+	</script>  
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNwS87CPSATXb_nkhTmN5-VxgLBuMbW3I&callback=myMap"></script>
+</body>
+</html>
